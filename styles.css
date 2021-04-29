@@ -1,0 +1,126 @@
+.navList {
+  margin-left: auto;
+}
+
+.jumbotron {
+  padding: 100px 30px 70px 30px;
+  margin: 20px auto;
+  background-color: #b725bf;
+  color: white;
+  min-height: 494px;
+  z-index: 0;
+}
+
+.jtext {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  line-height: 74px;
+  letter-spacing: -2px;
+  margin-top: 100px;
+}
+.atext {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 14px;
+  padding: 20px 60px 20px 60px;
+}
+.heading {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #222326;
+  line-height: 34px;
+}
+
+.desc {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #616467;
+  line-height: 24px;
+}
+#accordion {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.trn {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
+  z-index: 99;
+}
+.bg-dark {
+  background-color: transparent !important;
+}
+.nav-link {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+.flink {
+  color: #ffffff;
+  text-decoration: none;
+}
+.flink:hover {
+  color: rgb(30, 215, 96);
+}
+.fb {
+  padding: 14px;
+  margin-right: 10px;
+  background-color: #222326;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ful {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 8px;
+  padding-left: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.myaccordion {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.myaccordion .card-header {
+  background: transparent;
+}
+
+.myaccordion .btn {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  color: black;
+  padding: 0;
+  text-decoration: none;
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+  outline: 0 !important;
+}
+.card-header,
+.card-body {
+  padding: 50px;
+}
+
+.myaccordion .btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
