@@ -10,15 +10,25 @@
   min-height: 494px;
   z-index: 0;
 }
-
-.jtext {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 60px;
-  font-weight: 900;
-  color: rgb(255, 255, 255);
-  line-height: 74px;
-  letter-spacing: -2px;
-  margin-top: 60px;
+@media only screen and (min-width: 576px) {
+  .jtext {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    line-height: 74px;
+    letter-spacing: -2px;
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .jtext {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    letter-spacing: -2px;
+  }
 }
 .atext {
   font-family: Helvetica, Arial, sans-serif;
